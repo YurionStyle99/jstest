@@ -63,14 +63,12 @@ function showMyDb() {
     : console.log(personalMovieDB);
 }
 
-
-
 function writeYourGenres() {
-for (let i = 1; i <= 3; i++){
- const b = prompt(`Ваш любимый жанр под номером ${i}`, "");
- personalMovieDB.genres.push(b);
+  for (let i = 1; i <= 3; i++) {
+    const b = prompt(`Ваш любимый жанр под номером ${i}`, "");
+    personalMovieDB.genres.push(b);
+  }
 }
-};
 
 writeYourGenres();
 
